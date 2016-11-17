@@ -99,6 +99,7 @@
 <v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
 <v t="amd.20160727114506.1" a="E"><vh>201609</vh>
 <v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
+<v t="leo.20161117170123.1"><vh>@edit 20161117.md</vh></v>
 </v>
 </v>
 </v>
@@ -108,6 +109,24 @@
 </v>
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
+<v t="leo.20161117170107.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20161117170107.3"><vh>Recovered node "封面投影片" from @clean index.html</vh>
+<v t="leo.20161117170107.4"><vh>old:封面投影片</vh></v>
+<v t="leo.20161117170107.5"><vh>new:封面投影片</vh></v>
+</v>
+<v t="leo.20161117170107.6"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161117170107.7"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20161117170107.8"><vh>new:封面投影片內容</vh></v>
+</v>
+<v t="leo.20161117170107.9"><vh>Recovered node "HTML 投影片 (標題)" from @clean index.html</vh>
+<v t="leo.20161117170107.10"><vh>old:HTML 投影片 (標題)</vh></v>
+<v t="leo.20161117170107.11"><vh>new:HTML 投影片 (標題)</vh></v>
+</v>
+<v t="leo.20161117170107.12"><vh>Recovered node "三大主題教學" from @clean index.html</vh>
+<v t="leo.20161117170107.13"><vh>old:三大主題教學</vh></v>
+<v t="leo.20161117170107.14"><vh>new:三大主題教學</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -341,15 +360,15 @@ apply broader style changes, like switching the page background.
 
 </t>
 <t tx="amd.20161004083800.8">&lt;section&gt;
-    &lt;h1&gt;2016Fall CADPA 課程&lt;/h1&gt;
-    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
-    &lt;p&gt;
-    &lt;small&gt;
-    Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; / 
-    &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
-    &lt;/small&gt;
-    &lt;/p&gt;
-    
+	&lt;h1&gt;2016Fall CADPA 電腦輔助機械設計&lt;/h1&gt;
+	&lt;h3&gt;40423157朱明棈&lt;/h3&gt;
+	&lt;p&gt;
+	&lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; /
+	&lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
+	&lt;/small&gt;
+	&lt;/p&gt;	
+		
+
     &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
 &lt;/section&gt;
 </t>
@@ -453,11 +472,11 @@ make.start()
 &lt;/section&gt;
 
 
-						
+
 </t>
 <t tx="amd.20161004095719.2"># 2016Fall CADPA 課程
 
-### THE HTML PRESENTATION FRAMEWORK
+### 設計二甲
 
 &lt;small&gt;
 Created by [Hakim El Hattab](http://hakim.se)
@@ -532,7 +551,17 @@ and images can be specified like so:
 (Collaborative Designs, CD1-4)
 
 </t>
-<t tx="amd.20161004104820.1">&lt;section&gt;
+<t tx="amd.20161004104820.1">	
+	&lt;section&gt;
+            &lt;h2&gt;10/1成品影片&lt;/h2&gt;
+            &lt;p&gt;
+           &lt;iframe src="https://player.vimeo.com/video/185629545" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/185629545"&gt;40423157設計二甲朱明棈&lt;/a&gt; from &lt;a href="https://vimeo.com/user57496043"&gt;40423157&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+            &lt;/p&gt;
+        &lt;/section&gt;
+
+	
+	
 @others
 &lt;/section&gt;
 </t>
@@ -741,5 +770,166 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="leo.20161117170107.10">&lt;section&gt;
+    &lt;h1&gt;2016Fall CADPA 課程&lt;/h1&gt;
+    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+    &lt;p&gt;
+    &lt;small&gt;
+    Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; / 
+    &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
+    &lt;/small&gt;
+    &lt;/p&gt;
+    
+    &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20161117170107.11">&lt;section&gt;
+	&lt;h1&gt;2016Fall CADPA 電腦輔助機械設計&lt;/h1&gt;
+	&lt;h3&gt;40423157朱明棈&lt;/h3&gt;
+	&lt;p&gt;
+	&lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; /
+	&lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
+	&lt;/small&gt;
+	&lt;/p&gt;	
+		
+
+    &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20161117170107.12">(uncached) amd.20161004104820.1
+Diff...
+- 	
+- 	&lt;section&gt;
+? -
++ &lt;section&gt;
+-             &lt;h2&gt;10/1成品影片&lt;/h2&gt;
+-             &lt;p&gt;
+-            &lt;iframe src="https://player.vimeo.com/video/185629545" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+- &lt;p&gt;&lt;a href="https://vimeo.com/185629545"&gt;40423157設計二甲朱明棈&lt;/a&gt; from &lt;a href="https://vimeo.com/user57496043"&gt;40423157&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+-             &lt;/p&gt;
+-         &lt;/section&gt;
+- 
+- 	
+- 	
+  @others
+  &lt;/section&gt;
+</t>
+<t tx="leo.20161117170107.13">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20161117170107.14">	
+	&lt;section&gt;
+            &lt;h2&gt;10/1成品影片&lt;/h2&gt;
+            &lt;p&gt;
+           &lt;iframe src="https://player.vimeo.com/video/185629545" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/185629545"&gt;40423157設計二甲朱明棈&lt;/a&gt; from &lt;a href="https://vimeo.com/user57496043"&gt;40423157&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+            &lt;/p&gt;
+        &lt;/section&gt;
+
+	
+	
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20161117170107.2"></t>
+<t tx="leo.20161117170107.3">(uncached) amd.20161004095719.1
+Diff...
+  &lt;section data-markdown&gt;
+      &lt;script type="text/template"&gt;
+  @others
+      &lt;/script&gt;
+  &lt;/section&gt;
+  
+  
+- 
++ 						
+</t>
+<t tx="leo.20161117170107.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161117170107.5">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+</t>
+<t tx="leo.20161117170107.6">(uncached) amd.20161004095719.2
+Diff...
+  # 2016Fall CADPA 課程
+  
+- ### 設計二甲
++ ### THE HTML PRESENTATION FRAMEWORK
+  
+  &lt;small&gt;
+  Created by [Hakim El Hattab](http://hakim.se)
+  [@hakimel](http://twitter.com/hakimel)
+  &lt;/small&gt;
+  
+  [blog](blog/index.html)
+</t>
+<t tx="leo.20161117170107.7"># 2016Fall CADPA 課程
+
+### THE HTML PRESENTATION FRAMEWORK
+
+&lt;small&gt;
+Created by [Hakim El Hattab](http://hakim.se)
+[@hakimel](http://twitter.com/hakimel)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+</t>
+<t tx="leo.20161117170107.8"># 2016Fall CADPA 課程
+
+### 設計二甲
+
+&lt;small&gt;
+Created by [Hakim El Hattab](http://hakim.se)
+[@hakimel](http://twitter.com/hakimel)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+</t>
+<t tx="leo.20161117170107.9">(uncached) amd.20161004083800.8
+Diff...
+  &lt;section&gt;
+- 	&lt;h1&gt;2016Fall CADPA 電腦輔助機械設計&lt;/h1&gt;
+? ^                   ^^^^^^^^
++     &lt;h1&gt;2016Fall CADPA 課程&lt;/h1&gt;
+? ^^^^                   ^^
+- 	&lt;h3&gt;40423157朱明棈&lt;/h3&gt;
+- 	&lt;p&gt;
++     &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
++     &lt;p&gt;
++     &lt;small&gt;
+- 	&lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; /
+? ^^^^^^^^
++     Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; / 
+? ^^^^                                                          +
+- 	&lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
+? ^
++     &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
+? ^^^^
+- 	&lt;/small&gt;
+? ^
++     &lt;/small&gt;
+? ^^^^
++     &lt;/p&gt;
++     
+- 	&lt;/p&gt;	
+- 		
+- 
+      &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+  &lt;/section&gt;
+</t>
 </tnodes>
 </leo_file>
